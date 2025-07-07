@@ -1,11 +1,11 @@
 
-# 📈 ML-Based Equity Momentum Strategy using LightGBM
+# ML-Based Equity Momentum Strategy using LightGBM
 
 This project implements a machine learning-driven momentum strategy for stock selection using technical indicators and LightGBM. It focuses on monthly ranking of NSE-100 stocks to generate actionable buy/sell signals, with custom backtesting and performance analytics.
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 - **Objective**: Predict top-performing stocks based on recent momentum and technical indicators.
 - **Universe**: NSE-100 stocks, 2019–2024 data.
@@ -14,7 +14,7 @@ This project implements a machine learning-driven momentum strategy for stock se
 
 ---
 
-## 🧠 Features & Engineering
+## Features & Engineering
 
 - 12+ Technical Indicators:
   - RSI, MACD, ATR, EMA, Momentum, etc.
@@ -25,7 +25,7 @@ This project implements a machine learning-driven momentum strategy for stock se
 
 ---
 
-## 🔍 Model
+## Model
 
 - **Model**: LightGBM Classifier
 - **Task**: Multiclass classification (−1, 0, +1) or binary (dropping 0)
@@ -34,7 +34,7 @@ This project implements a machine learning-driven momentum strategy for stock se
 
 ---
 
-## 📊 Results
+## Results
 
 | Metric           | Value       |
 |------------------|-------------|
@@ -47,7 +47,7 @@ This project implements a machine learning-driven momentum strategy for stock se
 
 ---
 
-## 📈 Visuals
+## Visuals
 
 - Cumulative Returns vs Market
 - Monthly Portfolio Performance
@@ -56,7 +56,7 @@ This project implements a machine learning-driven momentum strategy for stock se
 
 ---
 
-## 🧪 Backtesting Framework
+## Backtesting Framework
 
 Custom vectorized backtest engine includes:
 
@@ -67,7 +67,7 @@ Custom vectorized backtest engine includes:
 
 ---
 
-## 🧰 Tools Used
+## Tools Used
 
 - Python, Pandas, NumPy
 - LightGBM, Scikit-learn
@@ -77,7 +77,7 @@ Custom vectorized backtest engine includes:
 
 ---
 
-## 🧭 Future Improvements
+## Future Improvements
 
 - Live simulation with 2025+ data
 - Confidence-weighted position sizing
