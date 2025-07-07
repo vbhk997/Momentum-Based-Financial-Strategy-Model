@@ -17,7 +17,7 @@ This project implements a machine learning-driven momentum strategy for stock se
 ## 🧠 Features & Engineering
 
 - 12+ Technical Indicators:
-  - RSI, MACD, Bollinger Bands, ATR, EMA, Momentum, etc.
+  - RSI, MACD, ATR, EMA, Momentum, etc.
 - Forward return labeling:
   - Based on 21-day future return.
 - Monthly cross-sectional classification:  
@@ -54,8 +54,6 @@ This project implements a machine learning-driven momentum strategy for stock se
 - SHAP Value Plots (optional)
 - Drawdown Curve
 
-<img src="examples/cum_returns.png" width="600"/>
-
 ---
 
 ## 🧪 Backtesting Framework
@@ -66,19 +64,6 @@ Custom vectorized backtest engine includes:
 - Transaction cost handling
 - Monthly signal execution
 - Cumulative return calculation
-
----
-
-## 📂 Project Structure
-
-```
-├── preprocess_data.ipynb       # Full pipeline (load, features, labels, model)
-├── backtest.py                 # Backtesting functions
-├── indicators.py               # Technical indicators
-├── results/                    # Plots, logs, returns
-├── data/                       # (optional) CSVs or Ticker list
-├── README.md
-```
 
 ---
 
@@ -99,13 +84,5 @@ Custom vectorized backtest engine includes:
 - Regression-based return prediction
 - Integration with macro indicators (VIX, rates)
 - Streamlit dashboard for interactive picks
-
----
-
-## 📬 Contact
-
-*Built by [Your Name]*  
-📧 email@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/yourname) | [GitHub](https://github.com/yourhandle)
 
 ---
